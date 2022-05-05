@@ -11,6 +11,7 @@ btnLeft.addEventListener('click', () => {
   if (i < 0) {
     i = images.length - 1;
   }
+
   image.setAttribute('src', images[i]);
 });
 
